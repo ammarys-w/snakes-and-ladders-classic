@@ -127,15 +127,21 @@
         
         <div class="controls">
             <div class="dice-section">
+                <div class="player-info">
+                    <p>Current Player: <span id="current-player">Player 1</span></p>
+                </div>
+                <div class="players-list">
+                    <h3>Players</h3>
+                    <div id="player-1" class="player-item">Player 1</div>
+                    <div id="player-2" class="player-item">Player 2</div>
+                    <div id="player-3" class="player-item">Player 3</div>
+                    <div id="player-4" class="player-item">Player 4</div>
+                </div>                                
                 <span>Dice: </span>
                 <span id="dice-value">-</span>
                 <button id="roll-dice">Roll Dice</button>
             </div>
             
-            <div class="player-info">
-                <span>Current Position: </span>
-                <span id="current-position">0</span>
-            </div>
             
             <!-- Phase 2: Player selection -->
             <!-- <div class="player-selection">
