@@ -1,8 +1,14 @@
 
 let players = []
 let currentPlayerIndex = 0
-let numberOfPlayers = 2  // Default to 2, will get from URL later
+// let numberOfPlayers = 4  // Default to 2, will get from URL later
 let gameWon = false
+
+// Get player count from URL
+const urlParams = new URLSearchParams(window.location.search)
+let numberOfPlayers = parseInt(urlParams.get('players')) 
+console.log('Number of Players from URL:', numberOfPlayers)
+
 
 const snakes = {
     16: 6,   
@@ -213,7 +219,14 @@ const resetGame = () => {
 
 // Start the game with 2 players min
 initializePlayers(numberOfPlayers)
-
+for (let i = 1; i <= 4; i++) {
+    const playerElement = document.getElementById(`player-${i}`)
+    if (i > numberOfPlayers) {
+        playerElement.style.display = 'none'  
+    } else {
+        playerElement.style.display = 'block'  
+    }
+}
 
 // Phase 4: Animation functions
 
