@@ -43,21 +43,15 @@ h1 {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: rgb(239, 15, 30);
   position: absolute;
-  top: 5px;
-  right: 5px;
+  border: 2px solid white;  
 }
 
-/* Phase 2: Multiple player colors */
-/* .player-1 { background-color: red; }
+.player-1 { background-color: red; }
 .player-2 { background-color: blue; }
 .player-3 { background-color: green; }
-.player-4 { background-color: yellow; } */
+.player-4 { background-color: yellow; }
 
-/* Phase 3: Snake and ladder styling */
-/* .snake { background-color: lightcoral; }
-.ladder { background-color: lightgreen; } */
 
 .controls {
   background-color:  rgb(182, 51, 51);
