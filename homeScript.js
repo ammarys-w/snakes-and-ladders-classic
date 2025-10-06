@@ -6,7 +6,7 @@ const closePopup = document.querySelector('.close-popup')
 
 playBtn.addEventListener('click', () => {
     const players = playerCountSelect.value
-    window.location.href = `../GameTab/index.html?players=${players}`
+    window.location.href = `../GameTab/game.html?players=${players}`
 })
 
 
