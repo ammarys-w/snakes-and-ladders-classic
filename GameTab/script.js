@@ -1,7 +1,6 @@
 
 let players = []
 let currentPlayerIndex = 0
-// let numberOfPlayers = 4  // Default to 2, will get from URL later
 let gameWon = false
 
 // Get player count from URL
@@ -24,13 +23,13 @@ const snakes = {
 }
 
 const ladders = {
-    1: 38,   
+    1: 38,  
     4: 14,   
     9: 31,   
     21: 42,  
     28: 84,  
     36: 44,  
-    51: 67,  
+    51: 67, 
     71: 91,  
     80 : 100  
 }
