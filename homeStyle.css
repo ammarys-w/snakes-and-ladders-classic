@@ -2,7 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: "chewy";
+    font-family: "monaco";
+    background-color: #0f1b2e;
+    background-image: url("backGround.png");
+    background-size: cover;
 }
 
 .home-screen {
@@ -11,7 +14,7 @@ body {
 }
 
 .home-container {
-    background: white;
+    background:lightsteelblue;
     padding: 30px;
     width: 300px;
     margin: 0 auto;
@@ -48,4 +51,12 @@ body {
     float: right;
     font-size: 24px;
     cursor: pointer;
+}
+h1{
+    color: blue;
+    text-shadow: 20px 10px 10px black;
+    /* border-color: black 10px; */
+}
+label{
+    color:blue;
 }
